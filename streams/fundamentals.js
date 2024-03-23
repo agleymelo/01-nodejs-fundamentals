@@ -1,6 +1,5 @@
 // process.stdin.pipe(process.stdout)
 
-
 import { Readable, Writable, Transform } from 'node:stream'
 
 class OneToHundredStream extends Readable {
